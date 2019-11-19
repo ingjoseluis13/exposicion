@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+@include('layouts.admin.partes.head')
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">

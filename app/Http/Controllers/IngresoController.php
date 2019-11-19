@@ -2,13 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Producto;
-use App\Proveedor;
 use Illuminate\Http\Request;
-use App\Ingreso;
-use App\DetalleIngreso;
-
-use Illuminate\Support\Facades\DB;
 
 class IngresoController extends Controller
 {

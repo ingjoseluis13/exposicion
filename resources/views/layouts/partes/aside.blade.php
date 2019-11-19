@@ -37,12 +37,6 @@
                             Proveedor
                         </p>
                     </a>
-                    <a href="{{ route('ingreso.index') }}" class="nav-link">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
-                        <p>
-                            Ingreso
-                        </p>
-                    </a>
                 </li>
             </ul>
         </nav>

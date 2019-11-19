@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-@include('layouts.partes.head')
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
-    @include('layouts.partes.header')
+    @include('layouts.admin.partes.header')
 
-    @include('layouts.partes.aside')
+    @include('layouts.admin.partes.aside')
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -25,7 +24,7 @@
         <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
-    @include('layouts.partes.footer')
+    @include('layouts.admin.partes.footer')
 
 <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
@@ -34,6 +33,6 @@
     <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
-@include('layouts.partes.script')
+@include('layouts.admin.partes.script')
 </body>
 </html>

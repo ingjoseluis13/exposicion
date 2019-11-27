@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('layouts.admin.index');
 });
 
-Auth::routes();
+Auth::routes(); 
 
 Route::get('/categorias', 'CategoriaController@index')->name('categoria.index');
 Route::get('/categorias/create', 'CategoriaController@create')->name('categoria.create');

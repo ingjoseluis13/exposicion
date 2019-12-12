@@ -21,9 +21,8 @@ class CreateIngresosTable extends Migration
 
             $table->foreign('id_proveedor')
                 ->references('id')
-                ->on('proveedores')
-                ->onUpdate('cascade')
-                ->onDelete('cascade');
+                ->on('proveedores');
+            $table->timestamps();
         });
     }
 

@@ -21,7 +21,7 @@
                     @csrf
                     <div class="form-group">
                         <label for="nombre">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" name="nombre" value="{{ $categoria->nombre }}" placeholder="Ingrese el nombre de la categoria">
+                        <input type="text" class="form-control" id="nombre" name="nombre" value="{!! $categoria->nombre !!}" placeholder="Ingrese el nombre de la categoria">
                     </div>
                     <div>
                         <button type="submit" class="btn btn-outline-primary">Modificar</button>

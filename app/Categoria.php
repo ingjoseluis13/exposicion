@@ -14,6 +14,5 @@ class Categoria extends Model
         'estado'
     ];
 
-
     public $timestamps = false;
 }

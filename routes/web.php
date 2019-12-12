@@ -37,3 +37,9 @@ Route::post('/productos/store', 'ProductoController@store')->name('producto.stor
 Route::get('/productos/edit/{id}', 'ProductoController@edit')->name('producto.edit');
 Route::post('/productos/update/{id}', 'ProductoController@update')->name('producto.update');
 Route::post('/productos/delete/{id}', 'ProductoController@destroy')->name('producto.delete');
+
+Route::get('/ingresos', 'IngresoController@index')->name('ingreso.index');
+Route::get('/ingresos/create', 'IngresoController@create')->name('ingreso.create');
+Route::post('/ingresos/store', 'IngresoController@store')->name('ingreso.store');
+Route::get('/ingresos/show/{id}', 'IngresoController@show')->name('ingreso.show');
+Route::post('/ingresos/delete/{id}', 'IngresoController@destroy')->name('ingreso.delete');
